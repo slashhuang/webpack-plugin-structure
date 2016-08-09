@@ -48,7 +48,7 @@
 
 - getting the compilation object[获取compilation对象]
 
-> ```compiler.plugin("compilation",(compilation)=>{})```
+> compiler.plugin("compilation",(compilation)=>{})
 
 - async compilation[异步处理,emit]
 > ```compiler.plugin("emit", (compilation, callback)=>{})```
