@@ -19,11 +19,11 @@
 > 最终导出的key/value哈希表
  
 #### compilation.modules  [compilation.modules对象主要键值对]
-- fileDependencies  
-> An array of source file paths included into a module.  
-> This includes the source JavaScript file itself (ex: index.js)  
-> and all dependency asset files (stylesheets, images, etc) that it has required.    
-> Reviewing dependencies is useful for seeing what source files belong to a module
+- fileDependencies
+> An array of source file paths included into a module.   
+> This includes the source JavaScript file itself (ex: index.js)   
+> and all dependency asset files (stylesheets, images, etc) that it has required.   
+> Reviewing dependencies is useful for seeing what source files belong to a module  
 
 #### compilation.chunks  [compilation.chunks对象主要键值对]
 - modules [Array] 
