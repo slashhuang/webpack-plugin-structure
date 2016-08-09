@@ -46,6 +46,19 @@
 - async compilation[异步处理,emit]
 > ```compiler.plugin("emit", (compilation, callback)=>{})```
 
+### demoCode[示例代码]
+```bash
+    # basic structure[基本结构]
+    npm run  basic
+    # compile demo [编译结构]
+    npm run compile
+    # asnyc demo [异步处理]
+    npm run async 
+    # sample demo [完整的展示]
+    npm run sample
+    
+```
+
  
  
 
