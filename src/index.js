@@ -1,5 +1,11 @@
-import Welcome from './welcome.js';
-import '../less/index.less';
-module.exports={
-    Welcome
+function HelloWorldPlugin(options) {
+    // Setup the plugin instance with options...
+}
+
+HelloWorldPlugin.prototype.apply = function(compiler) {
+    compiler.plugin('done', function() {
+        console.log('Hello World!');
+    });
 };
+
+module.exports = HelloWorldPlugin;
