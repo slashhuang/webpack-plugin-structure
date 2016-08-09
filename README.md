@@ -50,7 +50,8 @@
 
 > compiler.plugin("compilation",(compilation)=>{})
 
-- async compilation[异步处理,emit]
+- async compilation[异步处理,emit]  
+
 > ```compiler.plugin("emit", (compilation, callback)=>{})```
 
 ### demoCode[示例代码]
