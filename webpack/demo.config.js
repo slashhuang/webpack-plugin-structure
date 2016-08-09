@@ -2,7 +2,8 @@ var path = require('path');
 var glob = require('glob');
 var webpack = require('webpack');
 var extend = require('extend');
-var HelloWorldPlugin = require('../src/index');
+var runtimeName = require('yargs').argv.name;
+var PluginName = require('../src/'+runtimeName)
 
 module.exports =extend({}, {
     devtool: "source-map",
@@ -24,6 +25,6 @@ module.exports =extend({}, {
         ]
     },
     plugins: [
-        new HelloWorldPlugin({options: true})
+        new PluginName({options: true})
     ]
 });

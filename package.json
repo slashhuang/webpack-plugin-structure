@@ -9,7 +9,11 @@
     "template"
   ],
   "scripts": {
-    "demo": "webpack --config ./webpack/demo.config.js"
+    "basic": "webpack --config ./webpack/demo.config.js --name basic",
+    "compile": "webpack --config ./webpack/demo.config.js --name compile",
+    "async": "webpack --config ./webpack/demo.config.js --name async",
+    "sample": "webpack --config ./webpack/demo.config.js --name sample",
+    "file": "webpack --config ./webpack/demo.config.js --name file"
   },
   "license": "MIT",
   "contributors": [],
@@ -41,7 +45,8 @@
     "sass-loader": "^4.0.0",
     "style-loader": "^0.12.3",
     "url-loader": "^0.5.7",
-    "webpack": "^1.12.1"
+    "webpack": "^1.12.1",
+    "yargs": "^4.8.1"
   },
   "bugs": {
     "url": "http://github.com:slashhuang/npm-module-boilerplate/issues"
