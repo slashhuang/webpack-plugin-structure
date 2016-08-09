@@ -22,7 +22,7 @@
 - fileDependencies  
 > An array of source file paths included into a module.  
 > This includes the source JavaScript file itself (ex: index.js)  
-> and all dependency asset files (stylesheets, images, etc) that it has required.  
+> and all dependency asset files (stylesheets, images, etc) that it has required.    
 > Reviewing dependencies is useful for seeing what source files belong to a module
 
 #### compilation.chunks  [compilation.chunks对象主要键值对]
@@ -41,7 +41,7 @@
 > 执行实例的```apply```方法  
 
 - getting the compilation object[获取compilation对象]
-> ``` compiler.plugin("compilation",(compilation)=>{})```
+> ```compiler.plugin("compilation",(compilation)=>{})```
 
 - async compilation[异步处理,emit]
 > ```compiler.plugin("emit", (compilation, callback)=>{})```
